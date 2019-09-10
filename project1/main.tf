@@ -1,3 +1,19 @@
+
+#
+# Using backend  app.terraform.io
+#
+
+terraform {
+  backend "remote" {
+    organization = "Nicol-labs"
+
+    workspaces {
+      name = "project-1"
+    }
+  }
+}
+
+
 provider "aws" {
  region                  = "us-east-1"
 }
