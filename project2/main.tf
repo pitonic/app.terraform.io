@@ -3,7 +3,7 @@
 # Using backend  app.terraform.io
 #
 
-terraform {
+/*terraform {
   backend "remote" {
     organization = "PITONic"
     workspaces {
@@ -11,7 +11,7 @@ terraform {
     }
   }
 }
-
+*/
 
 provider "aws" {
  region  = "us-east-1"
