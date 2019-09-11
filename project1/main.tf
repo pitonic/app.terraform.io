@@ -5,10 +5,9 @@
 
 terraform {
   backend "remote" {
-    organization = "Nicol-labs"
-
+    organization = "PITONic"
     workspaces {
-      name = "project-1"
+      name = "clouds_piton"
     }
   }
 }
