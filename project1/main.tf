@@ -7,7 +7,7 @@ terraform {
   backend "remote" {
     organization = "PITONic"
     workspaces {
-      name = "clouds_piton"
+      name = "project1"
     }
   }
 }
