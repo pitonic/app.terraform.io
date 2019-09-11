@@ -23,7 +23,7 @@ resource "aws_instance" "my_ubuntu" {
  instance_type = "t2.micro"
   tags = {
     Name = "super att"
-    Name2 = "ec2"
+    Name2 = "ec2-2"
     }
  
 }
